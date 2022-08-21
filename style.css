@@ -1,0 +1,27 @@
+.blog {
+  width: 700px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text__1 {
+  display: none;
+}
+
+.btn {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000;
+  position: relative;
+  left: 40%;
+}
+
+.btn:active {
+  box-shadow: 0px 0px 0px #000;
+  transform: translateX(5px) translateY(5px);
+}
